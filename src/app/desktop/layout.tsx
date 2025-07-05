@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import { ReactNode } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { isDesktop } from '@/const/version';
 import GlobalLayout from '@/layout/GlobalProvider';
@@ -23,6 +24,7 @@ const RootLayout = async ({ children }: RootLayoutProps) => {
             </GlobalLayout>
           </ServerConfigStoreProvider>
         </NuqsAdapter>
+        <SpeedInsights />
       </body>
     </html>
   );
