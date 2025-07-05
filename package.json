@@ -264,6 +264,7 @@
     "use-merge-value": "^1.2.0",
     "utility-types": "^3.11.0",
     "uuid": "^11.1.0",
+    "vercel": "^44.2.12",
     "ws": "^8.18.2",
     "y-protocols": "^1.0.6",
     "y-webrtc": "^10.3.0",
